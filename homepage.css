@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: "stevie-sans", sans-serif;
+    background-color: white;
+    color: darkolivegreen;
+}
+
+.pagecontainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#index {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the whole content inside #index */
+}
+
+header {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1rem 2rem;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    min-height: 20px;
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "posterama-2001", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.frontphoto {
+    width: 95%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: "optima-nova-lt-pro", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    font-style: normal;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+footer {
+    height: 50px;
+    background-color: darkolivegreen;
+    text-align: center;
+    color: white;
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#index p {
+    max-width: 1000px;   
+    text-align: left;   
+    margin: 1rem auto 1rem;
+    color: black;
+    font-size: 1.2rem;
+}

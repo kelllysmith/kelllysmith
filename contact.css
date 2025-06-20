@@ -1,0 +1,13 @@
+section p {
+    font-size: 1.5rem;
+}
+
+.pagecontainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagecontainer > footer {
+    margin-top: auto;
+}

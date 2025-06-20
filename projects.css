@@ -1,0 +1,75 @@
+.shotclockcontainer, .skeeballcontainer, .candlecontainer, .cartcontainer, .TECIcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.shotclockcontainer figure, .skeeballcontainer figure, .candlecontainer figure, .cartcontainer figure, .TECIcontainer figure {
+    max-width: 500px;
+    margin: auto; 
+}
+
+.shotclockcontainer figure p, .skeeballcontainer figure p, .candlecontainer figure p, .cartcontainer figure p, .TECIcontainer figure p{
+    color: black;
+
+}
+
+.shotclock {
+    height: 350px; 
+    width: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.miniskeeballland {
+    height: 350px;
+    object-fit: cover;
+}
+
+.miniskeeballvert {
+    height: 350px;
+    object-fit: cover;
+}
+
+.candleheatengine {
+    height: 350px; 
+    width: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.farmcart {
+    object-fit: cover;
+    height:350px;
+    width: 500px;
+}
+
+#projects h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.TECI {
+    height: 375px; 
+    width: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+#TECI1 {
+    height: 500px;
+    width: 500px;
+}
+
+.shotclockcontainer figcaption, .skeeballcontainer figcaption, .candlecontainer figcaption, .cartcontainer figcaption, .TECIcontainer figcaption {
+    text-align: center;
+    color: black;
+}
+
+.TECIcontainer {
+    margin-bottom: 40px;
+}
